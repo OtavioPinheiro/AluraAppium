@@ -26,7 +26,7 @@ public class FeatureCadastro
         campoNome.setValue("Otavio");
         campoSenha.setValue("123");
         campoConfirmarSenha.setValue("456");
-//das
+
         botaoConfirmarCadastro.click();
         MobileElement msgErro = (MobileElement)driver.driver.findElementById(prefixo+"erro_cadastro");
 
