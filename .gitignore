@@ -1,3 +1,4 @@
 .idea
 env.java
 target
+target/*
