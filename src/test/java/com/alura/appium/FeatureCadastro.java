@@ -33,6 +33,7 @@ public class FeatureCadastro {
         MobileElement msgErro = (MobileElement)driver.findElementById(prefixo+"erro_cadastro");
 
         Assert.assertEquals("Senhas não conferem", msgErro.getText());
+        driver.navigate().back();
     }
 
     @Test
